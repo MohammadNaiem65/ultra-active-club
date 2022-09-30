@@ -4,7 +4,7 @@ import BreakBtn from '../BreakBtn/BreakBtn';
 const AddBreak = () => {
     return (
         <div>
-            <h2 className='text-xl font-bold'>Add A Break</h2>
+            <h2 className='text-xl font-bold'>Add A Break:</h2>
             <div className='bg-[#FFF5E4] mt-4 rounded-lg flex justify-between p-2 gap-1'>
                 <BreakBtn id={10} time={10}></BreakBtn>
                 <BreakBtn id={15} time={15}></BreakBtn>

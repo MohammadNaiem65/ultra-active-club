@@ -8,7 +8,7 @@ import QuestionAnswer from './components/QuestionAnswer/QuestionAnswer';
 function App() {
   return (
     <div>
-      <div className="App flex justify-between">
+      <div className="App md:flex justify-between">
         <div className='w-3/4 mx-auto'>
           <Header></Header>
           <Cards></Cards>

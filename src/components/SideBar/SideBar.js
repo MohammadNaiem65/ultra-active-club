@@ -12,14 +12,14 @@ const SideBar = () => {
         });
     }
     return (
-        <div className='w-[19rem] h-screen p-5 bg-[#FFE3E1]'>
+        <div className='md:w-[19rem] h-[43rem] md:h-screen p-5 bg-[#FFE3E1] mx-auto mt-14 md:mt-0 md:mx-0'>
             <UserInfo></UserInfo>
             <hr className='border-2 border-[#FFF5E4] bg-[#FFF5E4] rounded-xl mx-auto my-6 w-3/4' />
             <AddBreak></AddBreak>
             <hr className='border-2 border-[#FFF5E4] bg-[#FFF5E4] rounded-xl mx-auto my-6 w-3/4' />
             <ActivityDetails></ActivityDetails>
             <hr className='border-2 border-[#FFF5E4] bg-[#FFF5E4] rounded-xl mx-auto my-6 w-3/4' />
-            <button onClick={showToastMessage} className='w-full mt-3 py-2 font-bold bg-[#FF9494] hover:bg-[#f2a4b1] hover:text-white rounded-lg'>Activity Completed</button>
+            <button onClick={showToastMessage} className='w-full my-3 py-2 font-bold bg-[#FF9494] hover:bg-[#f2a4b1] hover:text-white rounded-lg'>Activity Completed</button>
             <ToastContainer />
         </div>
     );

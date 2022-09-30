@@ -29,7 +29,7 @@ const QuestionAnswer = () => {
     },
     ]
     return (
-        <div className='mt-10'>
+        <div className='mt-36 md:mt-10'>
             <div className='bg-[#FFD1D1]'>
                 <div className='w-3/4 mx-auto'>
                     <SimpleAnswer question='How does react work?' answer='ReactJS is an open-source, component-based front end library responsible only for the view layer of the application. DOM is slow, to make it faster, React implements a virtual DOM that is basically a DOM tree representation in JavaScript. So when it needs to read or write to the DOM, it will use the virtual representation of it. Then the virtual DOM will try to find the most efficient way to update the browser’s DOM. Then the browser DOM make changes to the website with that way.'></SimpleAnswer>
