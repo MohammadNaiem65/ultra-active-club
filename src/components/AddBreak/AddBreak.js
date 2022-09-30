@@ -1,15 +1,16 @@
 import React from 'react';
+import BreakBtn from '../BreakBtn/BreakBtn';
 
 const AddBreak = () => {
     return (
         <div>
             <h2 className='text-xl font-bold'>Add A Break</h2>
             <div className='bg-[#FFF5E4] mt-4 rounded-lg flex justify-between p-2 gap-1'>
-                <h1 className='font-semibold bg-[#FFE3E1] hover:bg-[#FF9494] hover:text-white px-2 py-3 rounded-full cursor-pointer'>10m</h1>
-                <h1 className='font-semibold bg-[#FFE3E1] hover:bg-[#FF9494] hover:text-white px-2 py-3 rounded-full cursor-pointer'>15m</h1>
-                <h1 className='font-semibold bg-[#FFE3E1] hover:bg-[#FF9494] hover:text-white px-2 py-3 rounded-full cursor-pointer'>20m</h1>
-                <h1 className='font-semibold bg-[#FFE3E1] hover:bg-[#FF9494] hover:text-white px-2 py-3 rounded-full cursor-pointer'>25m</h1>
-                <h1 className='font-semibold bg-[#FFE3E1] hover:bg-[#FF9494] hover:text-white px-2 py-3 rounded-full cursor-pointer'>30m</h1>
+                <BreakBtn id={10} time={10}></BreakBtn>
+                <BreakBtn id={15} time={15}></BreakBtn>
+                <BreakBtn id={20} time={20}></BreakBtn>
+                <BreakBtn id={25} time={25}></BreakBtn>
+                <BreakBtn id={30} time={30}></BreakBtn>
             </div>
         </div>
     );

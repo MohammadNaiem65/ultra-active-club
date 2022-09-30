@@ -10,7 +10,7 @@ const ActivityDetails = () => {
             </div>
             <div className='bg-[#FFF5E4] mt-4 rounded-lg flex justify-between p-2 gap-1 text-md'>
                 <h2 className='font-semibold'>Break Time: </h2>
-                <h2><span>00</span> m</h2>
+                <h2><span id='break-time'>00</span> m</h2>
             </div>
         </div>
     );
