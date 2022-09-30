@@ -9,7 +9,7 @@ const Cards = () => {
             .then(data => setActivities(data))
     }, [])
     return (
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-3 mt-5 gap-x-4 gap-y-8'>
             {
                 activities.map(activity => {
                     return <Card key={activities.id} activity={activity}></Card>
