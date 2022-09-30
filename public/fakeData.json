@@ -3,42 +3,49 @@
         "id": "633657157686e5b50367a595",
         "title": "Morning Walk",
         "age": "07-All",
-        "time": "30m"
+        "time": "30m",
+        "image": "./images/morning-walk.jpg"
     },
     {
         "id": "63365715e9f1c18b4a3c837d",
         "title": "Meditation",
         "age": "07-All",
-        "time": "20m"
+        "time": "20m",
+        "image": "./images/meditation.jpg"
     },
     {
         "id": "63365715f1a9132b315d5876",
         "title": "Read Newspaper",
         "age": "07-All",
-        "time": "20m"
+        "time": "20m",
+        "image": "./images/reading-newspaper.jpg"
     },
     {
         "id": "6336571566ce0c2341df09d8",
         "title": "Study",
         "age": "07-All",
-        "time": "45m"
+        "time": "45m",
+        "image": "./images/study.jpg"
     },
     {
         "id": "63365715f1c48205dd6ab098",
         "title": "Gardening",
         "age": "07-All",
-        "time": "30m"
+        "time": "30m",
+        "image": "./images/gardening.jpg"
     },
     {
         "id": "63365715f1c48205dd6ab093",
         "title": "Evening Walk",
         "age": "07-All",
-        "time": "30m"
+        "time": "30m",
+        "image": "./images/evening-walk.jpg"
     },
     {
         "id": "63365715f1c48205dd6ab09r",
         "title": "Read Book",
         "age": "07-All",
-        "time": "30m"
+        "time": "30m",
+        "image": "./images/read-book.jpg"
     }
 ]
