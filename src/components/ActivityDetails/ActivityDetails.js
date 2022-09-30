@@ -6,11 +6,11 @@ const ActivityDetails = () => {
             <h2 className='text-xl font-bold'>Add A Break</h2>
             <div className='bg-[#FFF5E4] mt-4 rounded-lg flex justify-between p-2 gap-1 text-md'>
                 <h2 className='font-semibold'>Activity Time: </h2>
-                <h2>100m</h2>
+                <h2><span id='activity-time'>00</span> m</h2>
             </div>
             <div className='bg-[#FFF5E4] mt-4 rounded-lg flex justify-between p-2 gap-1 text-md'>
                 <h2 className='font-semibold'>Break Time: </h2>
-                <h2>100m</h2>
+                <h2><span>00</span> m</h2>
             </div>
         </div>
     );
